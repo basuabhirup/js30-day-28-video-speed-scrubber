@@ -29,6 +29,14 @@ video {
   overflow: hidden;
 }
 
+.speed:hover {
+  cursor: grab;
+}
+
+.speed:active {
+  cursor: grabbing;
+}
+
 .speed-bar {
   width: 100%;
   background: linear-gradient(-170deg, #2376ae 0%, #c16ecf 100%);
